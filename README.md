@@ -9,13 +9,13 @@
 
 | Resource | URL |
 |----------|-----|
-| **🌐 Live Website** | [https://haider-travels.vercel.app](https://haider-travels.vercel.app) |
+| **🌐 Live Website** | [https://haider-travels-tau.vercel.app](https://haider-travels-tau.vercel.app) |
 | **🔧 Vercel Dashboard** | [https://vercel.com/tashfeens-projects-8f733995/haider-travels](https://vercel.com/tashfeens-projects-8f733995/haider-travels) |
 | **🔥 Firebase Console** | [https://console.firebase.google.com/project/haider-travels/overview](https://console.firebase.google.com/project/haider-travels/overview) |
 | **📦 Firebase Firestore DB** | [https://console.firebase.google.com/project/haider-travels/firestore](https://console.firebase.google.com/project/haider-travels/firestore) |
 | **👤 Firebase Auth** | [https://console.firebase.google.com/project/haider-travels/authentication](https://console.firebase.google.com/project/haider-travels/authentication) |
 | **📁 Firebase Storage** | [https://console.firebase.google.com/project/haider-travels/storage](https://console.firebase.google.com/project/haider-travels/storage) |
-| **🔐 Admin Login** | [https://haider-travels.vercel.app/admin/login](https://haider-travels.vercel.app/admin/login) |
+| **🔐 Admin Login** | [https://haider-travels-tau.vercel.app/admin/login](https://haider-travels-tau.vercel.app/admin/login) |
 
 ---
 
@@ -23,14 +23,14 @@
 
 | Page | URL | Description |
 |------|-----|-------------|
-| Homepage | [/](https://haider-travels.vercel.app/) | Hero section, fleet preview, services, footer |
-| Fleet | [/fleet](https://haider-travels.vercel.app/fleet) | Full car listings with filters (type, price, seats) |
-| About | [/about](https://haider-travels.vercel.app/about) | Company story, values, stats |
-| Contact | [/contact](https://haider-travels.vercel.app/contact) | Contact form (saves to Firebase), WhatsApp, phone |
-| Sign In / Register | [/auth](https://haider-travels.vercel.app/auth) | User authentication (Firebase Auth) |
-| My Bookings | [/my-bookings](https://haider-travels.vercel.app/my-bookings) | Logged-in users can view/cancel their bookings |
-| Admin Login | [/admin/login](https://haider-travels.vercel.app/admin/login) | Admin authentication portal |
-| Admin Dashboard | [/admin/dashboard](https://haider-travels.vercel.app/admin/dashboard) | Full admin panel (bookings, messages, stats) |
+| Homepage | [/](https://haider-travels-tau.vercel.app/) | Hero section, fleet preview, services, footer |
+| Fleet | [/fleet](https://haider-travels-tau.vercel.app/fleet) | Full car listings with filters (type, price, seats) |
+| About | [/about](https://haider-travels-tau.vercel.app/about) | Company story, values, stats |
+| Contact | [/contact](https://haider-travels-tau.vercel.app/contact) | Contact form (saves to Firebase), WhatsApp, phone |
+| Sign In / Register | [/auth](https://haider-travels-tau.vercel.app/auth) | User authentication (Firebase Auth) |
+| My Bookings | [/my-bookings](https://haider-travels-tau.vercel.app/my-bookings) | Logged-in users can view/cancel their bookings |
+| Admin Login | [/admin/login](https://haider-travels-tau.vercel.app/admin/login) | Admin authentication portal |
+| Admin Dashboard | [/admin/dashboard](https://haider-travels-tau.vercel.app/admin/dashboard) | Full admin panel (bookings, messages, stats) |
 
 ---
 
@@ -182,7 +182,7 @@
 
 ### Managing Bookings
 
-1. Log in at [/admin/login](https://haider-travels.vercel.app/admin/login) with your admin account
+1. Log in at [/admin/login](https://haider-travels-tau.vercel.app/admin/login) with your admin account
 2. Go to **Dashboard** tab for an overview
 3. Go to **Bookings** tab to see all booking requests
 4. Click ✅ to **approve** a booking (status → confirmed)
