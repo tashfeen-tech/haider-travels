@@ -1,0 +1,299 @@
+.page {
+    padding-top: 100px;
+    min-height: 100vh;
+    background: #050505;
+}
+
+.heroBanner {
+    text-align: center;
+    padding: 60px 24px 40px;
+}
+
+.heroBanner h1 {
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.heroBanner p {
+    color: var(--text-muted);
+    font-size: 18px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+}
+
+.loginPrompt {
+    text-align: center;
+    padding: 80px 24px;
+}
+
+.loginPrompt p {
+    color: var(--text-muted);
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.loginPrompt a {
+    display: inline-flex;
+}
+
+.emptyState {
+    text-align: center;
+    padding: 80px 24px;
+    background: var(--surface);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+}
+
+.emptyIcon {
+    width: 80px;
+    height: 80px;
+    background: rgba(212, 175, 55, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+    color: var(--primary);
+}
+
+.emptyState h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.emptyState p {
+    color: var(--text-muted);
+    margin-bottom: 24px;
+}
+
+.bookingsList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bookingCard {
+    background: var(--surface);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    overflow: hidden;
+    transition: var(--transition-smooth);
+}
+
+.bookingCard:hover {
+    border-color: rgba(212, 175, 55, 0.3);
+}
+
+.cardTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px 0;
+}
+
+.carTitle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.carTitle h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.driverBadge {
+    font-size: 11px;
+    background: rgba(212, 175, 55, 0.1);
+    color: var(--primary);
+    padding: 4px 10px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.statusBadge {
+    padding: 6px 18px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.statusPending {
+    background: rgba(255, 193, 7, 0.12);
+    color: #ffc107;
+}
+
+.statusConfirmed {
+    background: rgba(40, 167, 69, 0.12);
+    color: #28a745;
+}
+
+.statusCancelled {
+    background: rgba(220, 53, 69, 0.12);
+    color: #dc3545;
+}
+
+.cardBody {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 24px 32px;
+}
+
+.detailItem {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.detailLabel {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.detailValue {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.priceValue {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.cardFooter {
+    padding: 16px 32px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookingDate {
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.cancelBtn {
+    background: transparent;
+    border: 1px solid rgba(220, 53, 69, 0.3);
+    color: #dc3545;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: var(--transition-smooth);
+}
+
+.cancelBtn:hover {
+    background: rgba(220, 53, 69, 0.15);
+}
+
+.loadingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.userBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    padding: 20px 24px;
+    background: var(--surface);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.userAvatar {
+    width: 44px;
+    height: 44px;
+    background: var(--primary);
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.userName {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.userEmail {
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.logoutBtn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition-smooth);
+}
+
+.logoutBtn:hover {
+    border-color: #ff4d4d;
+    color: #ff4d4d;
+}
+
+@media (max-width: 768px) {
+    .cardBody {
+        grid-template-columns: 1fr 1fr;
+        padding: 20px 24px;
+    }
+
+    .cardTop {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 20px 24px 0;
+    }
+
+    .cardFooter {
+        padding: 16px 24px;
+    }
+
+    .userBar {
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+}
