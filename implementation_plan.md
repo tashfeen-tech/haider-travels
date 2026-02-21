@@ -1,9 +1,9 @@
-# Implementation Plan - Bukhari Rent A Car Booking App
+# Implementation Plan - Haider Travels Booking App
 
-This document outlines the plan for building a premium car booking application for Bukhari Rent A Car, Lahore.
+This document outlines the plan for building a premium car booking application for Haider Travels, Lahore.
 
 ## 1. Project Overview
-- **Client**: Bukhari Rent A Car
+- **Client**: Haider Travels
 - **Location**: Lahore, Pakistan
 - **Core Services**: Car rental (with/without driver), flexible durations (daily, weekly, monthly).
 - **Target Platform**: Web (Next.js), Mobile-responsive.
@@ -44,7 +44,7 @@ This document outlines the plan for building a premium car booking application f
 - **Booking Management**: Approve/Reject bookings, update status.
 
 ## 4. Design Aesthetics
-- **Color Palette**: Sophisticated Dark/Light mode support. Primary colors: Dark Slate, Premium Gold/Silver accents (to match "Bukhari" brand feel).
+- **Color Palette**: Sophisticated Dark/Light mode support. Primary colors: Dark Slate, Premium Gold/Silver accents (to match "Haider" brand feel).
 - **Typography**: Inter or Outfit for a modern look.
 - **Visuals**: Glassmorphism effects, smooth scroll animations (Framer Motion), high-quality car renders.
 

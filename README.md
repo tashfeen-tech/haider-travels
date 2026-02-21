@@ -1,4 +1,4 @@
-# 🚗 Bukhari Rent A Car — Complete Usage Guide
+# 🚗 Haider Travels — Complete Usage Guide
 
 > **Premium car rental website for Lahore, Pakistan**  
 > Built with Next.js 16, Firebase, and Framer Motion
@@ -9,13 +9,13 @@
 
 | Resource | URL |
 |----------|-----|
-| **🌐 Live Website** | [https://bukhari-rent-a-car.vercel.app](https://bukhari-rent-a-car.vercel.app) |
-| **🔧 Vercel Dashboard** | [https://vercel.com/tashfeens-projects-8f733995/bukhari-rent-a-car](https://vercel.com/tashfeens-projects-8f733995/bukhari-rent-a-car) |
-| **🔥 Firebase Console** | [https://console.firebase.google.com/project/bukhari-rent-a-car/overview](https://console.firebase.google.com/project/bukhari-rent-a-car/overview) |
-| **📦 Firebase Firestore DB** | [https://console.firebase.google.com/project/bukhari-rent-a-car/firestore](https://console.firebase.google.com/project/bukhari-rent-a-car/firestore) |
-| **👤 Firebase Auth** | [https://console.firebase.google.com/project/bukhari-rent-a-car/authentication](https://console.firebase.google.com/project/bukhari-rent-a-car/authentication) |
-| **📁 Firebase Storage** | [https://console.firebase.google.com/project/bukhari-rent-a-car/storage](https://console.firebase.google.com/project/bukhari-rent-a-car/storage) |
-| **🔐 Admin Login** | [https://bukhari-rent-a-car.vercel.app/admin/login](https://bukhari-rent-a-car.vercel.app/admin/login) |
+| **🌐 Live Website** | [https://haider-travels.vercel.app](https://haider-travels.vercel.app) |
+| **🔧 Vercel Dashboard** | [https://vercel.com/tashfeens-projects-8f733995/haider-travels](https://vercel.com/tashfeens-projects-8f733995/haider-travels) |
+| **🔥 Firebase Console** | [https://console.firebase.google.com/project/haider-travels/overview](https://console.firebase.google.com/project/haider-travels/overview) |
+| **📦 Firebase Firestore DB** | [https://console.firebase.google.com/project/haider-travels/firestore](https://console.firebase.google.com/project/haider-travels/firestore) |
+| **👤 Firebase Auth** | [https://console.firebase.google.com/project/haider-travels/authentication](https://console.firebase.google.com/project/haider-travels/authentication) |
+| **📁 Firebase Storage** | [https://console.firebase.google.com/project/haider-travels/storage](https://console.firebase.google.com/project/haider-travels/storage) |
+| **🔐 Admin Login** | [https://haider-travels.vercel.app/admin/login](https://haider-travels.vercel.app/admin/login) |
 
 ---
 
@@ -23,14 +23,14 @@
 
 | Page | URL | Description |
 |------|-----|-------------|
-| Homepage | [/](https://bukhari-rent-a-car.vercel.app/) | Hero section, fleet preview, services, footer |
-| Fleet | [/fleet](https://bukhari-rent-a-car.vercel.app/fleet) | Full car listings with filters (type, price, seats) |
-| About | [/about](https://bukhari-rent-a-car.vercel.app/about) | Company story, values, stats |
-| Contact | [/contact](https://bukhari-rent-a-car.vercel.app/contact) | Contact form (saves to Firebase), WhatsApp, phone |
-| Sign In / Register | [/auth](https://bukhari-rent-a-car.vercel.app/auth) | User authentication (Firebase Auth) |
-| My Bookings | [/my-bookings](https://bukhari-rent-a-car.vercel.app/my-bookings) | Logged-in users can view/cancel their bookings |
-| Admin Login | [/admin/login](https://bukhari-rent-a-car.vercel.app/admin/login) | Admin authentication portal |
-| Admin Dashboard | [/admin/dashboard](https://bukhari-rent-a-car.vercel.app/admin/dashboard) | Full admin panel (bookings, messages, stats) |
+| Homepage | [/](https://haider-travels.vercel.app/) | Hero section, fleet preview, services, footer |
+| Fleet | [/fleet](https://haider-travels.vercel.app/fleet) | Full car listings with filters (type, price, seats) |
+| About | [/about](https://haider-travels.vercel.app/about) | Company story, values, stats |
+| Contact | [/contact](https://haider-travels.vercel.app/contact) | Contact form (saves to Firebase), WhatsApp, phone |
+| Sign In / Register | [/auth](https://haider-travels.vercel.app/auth) | User authentication (Firebase Auth) |
+| My Bookings | [/my-bookings](https://haider-travels.vercel.app/my-bookings) | Logged-in users can view/cancel their bookings |
+| Admin Login | [/admin/login](https://haider-travels.vercel.app/admin/login) | Admin authentication portal |
+| Admin Dashboard | [/admin/dashboard](https://haider-travels.vercel.app/admin/dashboard) | Full admin panel (bookings, messages, stats) |
 
 ---
 
@@ -42,7 +42,7 @@
    - Premium dark-themed hero section with animated text
    - Quick "Book Now" CTA button (calls WhatsApp)
    - Fleet preview grid showing all 6 vehicles
-   - "Why Choose Bukhari?" service highlights
+   - "Why Choose Haider?" service highlights
    - Footer with contact info and quick links
 
 2. **Fleet Page** (`/fleet`)
@@ -172,17 +172,17 @@
 
 ### Making a User an Admin
 
-1. Go to [Firebase Console → Authentication](https://console.firebase.google.com/project/bukhari-rent-a-car/authentication)
+1. Go to [Firebase Console → Authentication](https://console.firebase.google.com/project/haider-travels/authentication)
 2. Find the user you want to make admin (or create one via the website `/auth`)
 3. Copy their **UID**
-4. Go to [Firebase Console → Firestore](https://console.firebase.google.com/project/bukhari-rent-a-car/firestore)
+4. Go to [Firebase Console → Firestore](https://console.firebase.google.com/project/haider-travels/firestore)
 5. Navigate to `users` collection → find the document with that UID
 6. Change the `role` field from `"user"` to `"admin"`
 7. Now that user can log in at `/admin/login` and access the dashboard
 
 ### Managing Bookings
 
-1. Log in at [/admin/login](https://bukhari-rent-a-car.vercel.app/admin/login) with your admin account
+1. Log in at [/admin/login](https://haider-travels.vercel.app/admin/login) with your admin account
 2. Go to **Dashboard** tab for an overview
 3. Go to **Bookings** tab to see all booking requests
 4. Click ✅ to **approve** a booking (status → confirmed)
@@ -253,7 +253,7 @@ NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 ## 📞 Business Contact
 
 - **Phone / WhatsApp**: +92 347 6669992
-- **Email**: info@bukharirentacar.com
+- **Email**: info@haidertravels.com
 - **Location**: Lahore, Punjab, Pakistan
 - **Hours**: 24/7
 
